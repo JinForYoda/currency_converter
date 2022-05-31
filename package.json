@@ -1,6 +1,6 @@
 {
 	"name": "currency_converter",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"private": true,
 	"homepage": "https://jinforyoda.github.io/currency_converter",
 	"dependencies": {
