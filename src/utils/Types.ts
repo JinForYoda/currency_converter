@@ -47,5 +47,5 @@ export namespace Types {
         API
     */
 	export const API = 'https://api.currencyapi.com/v3/latest'
-	export const API_KEY = 'j0ryX8gel6bUKdWENf0UUHrCJCuDAJebSofpLpBh'
+	export const API_KEY = 'o3Sw0L31Se5Mh2JP7GgvHz8iGs17QJ9V5gMJIWoK'
 }
