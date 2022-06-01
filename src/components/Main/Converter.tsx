@@ -27,11 +27,20 @@ export default function Converter() {
 
 	const onClickIn = (e: React.MouseEvent) => {
 		const target = e.target as HTMLDivElement
+		// switch when selected same currencies
+		if (target.textContent === outCur) {
+			dispatch(changeOutCur(inCur))
+		}
 		dispatch(changeInCur(target.textContent as Types.AvailableCurrencies))
 		dispatch(setCoefficient())
 	}
 	const onClickOut = (e: React.MouseEvent) => {
 		const target = e.target as HTMLDivElement
+		// switch when selected same currencies
+		if (target.textContent === inCur) {
+			dispatch(changeInCur(outCur))
+		}
+
 		dispatch(changeOutCur(target.textContent as Types.AvailableCurrencies))
 		dispatch(setCoefficient())
 	}
